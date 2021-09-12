@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+}
+
+div:first-of-type {
+  width: 10%;
+  height: 50%;
+  padding: 100px 150px;
+  border: 5px solid violet;
+  margin: 18px 9px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+div:nth-child(2) {
+  width: 30vw;
+  height: 10vh;
+  padding: 50px 75px 100px;
+  border: 8px dotted firebrick;
+  margin: 25px 10px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+div:last-of-type {
+  width: 10vmin;
+  height: 15vmax;
+  padding: 100px;
+  border: 100px groove darkcyan;
+  margin: 10px 15px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+span {
+  width: 200px;
+  height: 200px;
+  background-color: khaki;
+}
